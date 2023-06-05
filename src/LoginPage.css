@@ -1,0 +1,144 @@
+.login-page {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100vh;
+
+}
+
+.background-container {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1450px;
+  height: 730px;
+  left: -483px;
+  top: 9px;
+
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.background-container img {
+  
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+
+
+.logo-container {
+  position: absolute;
+  top: 28px;
+  left: 15px;
+  width: 340px;
+  height: 86px;
+  border-radius: 0;
+}
+
+h1 {
+  margin-bottom: 60px;
+  font-size: 38px;
+  color: #333333;
+  margin-right: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Update this line */
+  width: 300px;
+  margin-right: 50px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+label {
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 10px;
+  font-weight: 250px;
+}
+
+input[type="email"],
+input[type="password"] {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    position: absolute;
+    width: 340px;
+    height: 130px;
+    left: calc(100% - 470px); /* Updated left property */
+    top: 380px;
+  }
+  
+  .login-button,
+  .google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 48px;
+    border-radius: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #1a2028;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-button:hover,
+  .google-button:hover {
+    background-color: #1a2028;
+  }
+  
+  .login-button:active,
+  .google-button:active {
+    background-color: #1a2028;
+  }
+  
+  
+h2 {
+  margin-bottom: 6px;
+  font-size: 26px;
+  color: #333333;
+  margin-right: 15px;
+  margin-top: 3px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-weight: 20px;
+}
+
+.form-container {
+    position: absolute;
+    top: 35%;
+    left: 86%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    padding: 32px;
+   
+  }
+
+  
+  
+  
